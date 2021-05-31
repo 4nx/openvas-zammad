@@ -21,8 +21,8 @@
 __version__ = '0.1'
 __author__ = 'Simon Krenz'
 
-from lib.openvas import OpenVAS
-import lib.constant as constant
+from modules.openvas import OpenVAS
+import modules.constant as constant
 
 def main():
     """The main function
